@@ -1,0 +1,34 @@
+<div class="row feed">
+    <div class="col-md-4">
+        <div ng-hide="currentUser">
+            <h4>Login:</h4>
+            <br>
+            <input type="text" size="30" placeholder="Username" ng-model="username">
+            <br><br>
+            <input type="password" size="30" placeholder="Password" ng-model="password">
+            <br><br>
+            <button type="button" ng-click="login()">Login</button>
+            <br><br>
+            <a href="#!/register">Not a member? Register</a>
+        </div>
+        <div ng-show="currentUser">
+            Hello, {{ currentUser }}.
+            <br><br>
+            <a href ng-click="logOut()">Logout</a>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="new-post" ng-show="currentUser">
+            <input type="text" class="form-control" placeholder="Enter new post here" ng-model="newPost">
+            <button class="btn" type="submit" ng-click="submitNewPost()">Submit</button>
+        </div>
+        <h3 ng-repeat="post in posts">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
+            {{ post.text }}
+            <a ng-click="deletePost(post)"><span class="glyphicon glyphicon-remove delete-cross" aria-hidden="true"></span></a>
+            <br>
+            <small>{{ post.username }}</small>
+            
+        </h3>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "basicmeanstackwebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-kayes/BasicMeanStackWebApp.git"
+  },
+  "author": "James Kayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-kayes/BasicMeanStackWebApp/issues"
+  },
+  "homepage": "https://github.com/j-kayes/BasicMeanStackWebApp#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "^2.2.31"
+  }
+}

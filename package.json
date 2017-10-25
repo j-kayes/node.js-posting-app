@@ -1,6 +1,6 @@
 {
-  "name": "basicmeanstackwebapp",
-  "version": "1.0.0",
+  "name": "node.js-posting-app",
+  "version": "0.1.0",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j-kayes/BasicMeanStackWebApp.git"
+    "url": "git+https://github.com/j-kayes/node.js-posting-app.git"
   },
   "author": "James Kayes",
-  "license": "ISC",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/j-kayes/BasicMeanStackWebApp/issues"
+    "url": "https://github.com/j-kayes/node.js-posting-app/issues"
   },
-  "homepage": "https://github.com/j-kayes/BasicMeanStackWebApp#readme",
+  "homepage": "https://github.com/j-kayes/node.js-posting-app#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
